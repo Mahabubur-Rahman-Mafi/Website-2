@@ -1,0 +1,374 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Poppins', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+/*Global css start here*/
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+.row{
+	width: 100%;
+	float: left;
+}
+.col-4{
+	width: 33.33%;
+	float: left;
+}
+.col-6{
+	width: 50%;
+	float: left;
+}
+.col-12{
+	width: 100%;
+	float: left;
+}
+/*Global css End here*/
+.header{
+	width: 100%;
+	/*margin: 0px auto;*/
+	height: 600px;
+	float: left;
+	background:#015761 ;
+}
+.header h1{
+	font-size: 30px;
+	font-weight: 500;
+	padding: 20px 0px;
+	color: 	#FFFF00;
+	margin-top: 5px;
+	text-transform: capitalize;
+}
+.header .menu{
+	list-style: none;
+	text-align: left;
+}
+.header .menu a{
+	display: inline-block;
+	margin: 5px 0;
+	transition: 1s;
+}
+.header .menu li{
+	font-size: 18px;
+	font-weight: 500px;
+	color: #f5f5f5;
+	margin: 0px 25px 0px 0px;
+}
+.header .menu li:hover{
+	border-bottom: 2px solid #FFFF00;
+}
+.header .menu a:hover{
+	transform: scale(1.1);
+}
+.blue{
+	background: #015761;
+	width: 100%;
+	height: 400px;
+	float: left;
+	text-align: left;
+	position: relative;
+}
+.blue h2{
+	font-size: 30px;
+	font-weight: 500;
+	padding: 5px 0px;
+	color:#FFFF00;
+	position: absolute;
+	top: 130px;
+	left: 150px;
+}
+.blue h1{
+	font-size: 65px;
+	font-weight: 700;
+	padding: 5px 0px;
+	color:#f5f5f5;
+	position: absolute;
+	top: 158px;
+	left: 150px;
+	line-height: 70px;
+	letter-spacing: 1px;
+}
+.blue p{
+	font-size: 20px;
+	font-weight: 400;
+	padding: 5px 0px;
+	color:#F5f5f5;
+	position: absolute;
+	top: 310px;
+	left: 150px;
+	text-transform: capitalize;
+	letter-spacing: 1px;
+}
+.image{
+	width: 100%;
+	float: left;
+	text-align: right;
+}
+.image img{
+	width: 100%;
+	float: left;
+	height: 600px;
+	text-align: right;
+	margin-top: -103px; /*why did this*/
+	height: 600px;
+}
+.header .social-0{
+	position: relative;
+}
+.header .social-0 ul{
+	list-style: none;
+	background-color: #FFFF00;
+	height: 160	PX;
+	width: 40px;
+	border-radius: 3px 0px 0px 3px;
+	position: absolute;
+	top: -360px;
+	right: 0px;
+}
+.header .social-0 li{
+	font-size: 17px;
+	padding: 7px 0px; 
+	transition: 1s;
+	text-align: center;
+/*	position: absolute;
+	top: 7px;*/
+}
+.header .social-0 a{
+	color: #121212;
+}
+.header .social-0 li:hover{
+	transform: scale(1.3);
+}
+/*about-scetion start*/
+.about-section{
+	width: 100%;
+	height: 1000px;
+	text-align: center;
+	background: #F1F0F0;
+	padding-bottom: 30px;
+}
+.about-section h1{
+	padding: 30px 0px;
+	font-size: 40px;
+	font-weight: 600;
+	margin-top: 20px;
+	color: #015761;
+	text-transform: capitalize;
+
+}
+.about-section p{
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 25px;
+}
+.about-section .button{
+	padding: 10px;
+	margin: 40px 0px;
+	transition: 1s;
+	border: 1px solid #000000;
+	border-radius: 3px;
+}
+.about-section .button a{
+	color: #121212;
+	font-size: 12px;
+	font-weight: 400;
+	text-transform: capitalize;
+}
+.about-section .button:hover{
+	background-color: #FFFF00;
+	transform: scale(1.09);
+	border: none;
+	box-shadow: 2px;
+}
+.about-section .button a:hover{
+	color: #015761;
+}
+/*showreel-scetion start here*/
+.showreel-scetion-1{
+	width: 100%;
+}
+.showreel-section-1 h1{
+	padding: 50px 0px;
+	font-size: 30px;
+	font-weight: 700;
+	margin: 20px 0px;
+	color: #015761;
+	text-transform: capitalize;
+	text-align: center;
+}
+.showreel-section-2{
+	width: 100%;
+	margin-top: 170px;  /*why i need this*/
+	position: relative;
+}
+.showreel-section-2 .pic{
+	background-image:url(../image/02.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 600px;
+	width: 100%;
+}
+.showreel-section-2 ul{
+	list-style: none;
+}
+.showreel-section-2 li{
+	display: inline-block;
+	color: #ffffff;
+}
+.showreel-section-2 ul .ic{
+	font-size: 40px;
+	color: #ffffff;
+	position: absolute;
+	top: 295px;
+	left: 580px;
+	transition: 1s;
+}
+.showreel-section-2 ul .play{
+	font-size: 25px;
+	position: absolute;
+	top: 303px;
+	left: 620px;
+}
+.showreel-section-2 ul .ic:hover{
+	transform: scale(1.35);
+}
+.showreel-section-2 ul .play:hover{
+	border-bottom: 2px solid #F5f5f5;;
+}
+/*photo-section start here*/
+.photo-section{
+	width: 100%;
+	float: left;
+}
+.photo-section h1{
+	font-size: 40px;
+	padding: 60px 0px;
+	font-weight: 600;
+	text-align: center;
+	text-transform: capitalize;
+	color:#015761 ;
+}
+
+.photo-section .man-01 img{
+	width: 80%;
+	float: left;
+	height: 300px;
+}
+.photo-section .man-02 img{
+	width: 100%;
+	float: left;
+	height: 300px;
+	margin-left: -10%;
+}
+.photo-section .man-03 img{
+	width: 100%;
+	float: left;
+	height: 300px;
+}
+.photo-section-2{
+	width: 100%;
+	float: left;
+	padding: 40px 0px;
+}
+.photo-section-2 .man-01 img{
+	width: 100%;
+	float: left;
+	height: 300px;
+}
+.photo-section-2 .man-02 img{
+	width: 100%;
+	float: left;
+	height: 300px;
+	margin-left: 10%;
+}
+.photo-section-2 .man-03 img{
+	width: 80%;
+	float: right;
+	height: 300px;
+}
+/*contact-section start here*/
+.contact-section{
+	width: 100%;
+	float: left;
+	margin-top: 30px;
+	padding: 10px 0px;
+	position: relative;
+}
+.contact-section img{
+	width: 100%;
+	height: 800px;
+	float: left;
+}
+.contact-section .cl{
+	width: 100%;
+	height: 800px;
+	float: left;
+	background-color: #015761;
+	color: #f5f5f5;
+	position: relative;
+}
+.contact-section .cl .de{
+	position: absolute;
+	top: 155px;
+	left: 180px;
+	font-size: 15px;
+	line-height: 25px;
+}
+
+.contact-section .cl .de h1{
+	font-size: 60px;
+	font-weight: 500;
+	color: #FFFF00 ;
+}
+
+.contact-section .cl .de h2{
+	font-size: 25px;
+	font-weight: 400;
+}
+
+.contact-section .cl .de h4{
+	font-size: 20px;
+	font-weight: 400;
+}
+.contact-section .social ul{
+	list-style: none;
+	position: absolute;
+	top: 655px;
+	left: 172px;
+}
+.contact-section .social li{
+	display: inline-block;
+	font-size: 17px;
+	margin-left: 11px;
+	transition: 1s;
+}
+.contact-section .social a{
+	color: #f5f5f5;
+}
+.contact-section .social li:hover{
+	transform: scale(1.1);
+}
+/*footer-section start here*/
+.footer-section{
+	width: 100%;
+	float: left;
+	padding: 20px 0px;
+	/*background: #008AFF;*/
+	text-align: center;
+}
+.footer-section p{
+	font-size: 12px;
+	font-weight: 400;
+	color: #121212;
+}
